@@ -18,7 +18,7 @@ function init() {
   const far = 1000;
   
   camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-  camera.position.set(0, 2, 13);
+  camera.position.set(0, 0, 6);
 
   const ambient = new THREE.AmbientLight(0x404040, 2);
   scene.add(ambient);
@@ -46,7 +46,7 @@ function init() {
 
 function startAnimation() {
   requestAnimationFrame(startAnimation);
-  model.rotation.z += 0.006;
+  model.rotation.y += 0.006;
   renderer.render(scene, camera);
 }
 
