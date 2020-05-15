@@ -46,7 +46,7 @@ function init() {
 
 function startAnimation() {
   requestAnimationFrame(startAnimation);
-  model.rotation.y += 0.006;
+  model.rotation.y += 0.01;
   renderer.render(scene, camera);
 }
 
