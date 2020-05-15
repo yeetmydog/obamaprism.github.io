@@ -7,6 +7,10 @@
 body {
   font-family: sans-serif;
   overflow: hidden;
+  background: url(https://antongorlin.com/wp-content/gallery/desert-landscape/desert-landscape-horizontal.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .scene,
