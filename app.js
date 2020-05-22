@@ -59,8 +59,3 @@ window.addEventListener("resize", function() {
 
   renderer.setSize(container.clientWidth, container.clientHeight);
 });
-
-// Music my dude?
-music = new Audio('./nenenenenene.mp3');
-music.loop = true
-music.play();
