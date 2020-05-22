@@ -4,6 +4,7 @@ let camera;
 let renderer;
 let scene;
 let model;
+let music;
 
 function init() {
   container = document.querySelector(".scene");
@@ -58,3 +59,8 @@ window.addEventListener("resize", function() {
 
   renderer.setSize(container.clientWidth, container.clientHeight);
 });
+
+// Music my dude?
+music = new Audio('./nenenenenene.mp3');
+music.loop = true
+music.play();
